@@ -1,0 +1,11 @@
+
+start a new project:
+https://create-react-app.dev/docs/getting-started/#npx
+
+> npx create-react-app my_app
+or
+> npm init react-app my_app
+
+
+setup a copied project
+> npm install my-proj

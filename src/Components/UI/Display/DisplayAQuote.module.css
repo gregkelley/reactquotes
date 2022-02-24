@@ -1,0 +1,20 @@
+.quote {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.quote ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.quote li {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+
+.quote h3 {
+  padding: 1.0rem;
+}
