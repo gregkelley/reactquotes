@@ -9,3 +9,12 @@ or
 
 setup a copied project
 > npm install my-proj
+
+
+          <textarea
+            id="newquote"
+            type="text"
+            inputMode="text"
+            value={enteredQuote}
+            onChange={quoteChangeHandler}
+          ></textarea>

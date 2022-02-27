@@ -5,10 +5,14 @@ import Card from "../Card";
 import Button from "../Button";
 
 const DisplayAQuote = (props) => {
+
+  // const newQuote = () => {
+  //   props.onNewQuote();
+  // }
   return (
     <div>
       <Card className={classes.quote}>
-        <Button marginLeft="auto" marginRight="0">
+        <Button marginLeft="auto" marginRight="0" onClick={props.onNewQuote}>
           New Random Quote
         </Button>
         <h3>{props.quote}</h3>
